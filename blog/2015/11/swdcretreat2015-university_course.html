@@ -76,5 +76,95 @@ Jenny Bryan is ...
 
 <h2>The Roundtable Discussion</h2>
 
+<emph>Earlier this year, Anthony Scopatz and Kathryn Huff published <a href='http://physics.codes/'>Effective Computation in Physics</a>.
+They have build a course around the book and Tiffany is doing a beta test of the syllabus in her <a href='https://phy3009.github.io/PHY3009-2015/'>course</a>.
+Can you elaborate about the course?</emph>
+
+been building off Katie and Anthony's expereinces from teaching as well as my own from teaching Software Carpentry.
+Anthony also taught the course to Masters students.
+I deided to use this txt book as my course at Quest. THe book is based on Python, but many of the priinciples are language agnostic.
+THe book covers maby topics SWC teaches, such as Bash, Python, Make, documentation, licences, and many open science aspects.
+they also created a github reepo of annotated ipython notebooks of the code in the book.
+The annotations are aimed to help those who are using the book as instructors and/or students.
+
+<emph>A reponse to my original discuss question revolved around administrative and university department politics on who should and can teach a course like this.
+For example, some people mentioned that the computer science department will push back to any course involving programming.
+How did you over come these hurdles, or any others?</emph>
+
+[tiffany] This was not much of an issue for me because Quest is a liberal arts college, and this is essentially the only computer science ourse they are offering this year.
+
+[jenny]I just sneak it into courses that are already on the books.  I have created a course from scratch, and it was a nightmare.
+Teach it in courses that already have a number.  But that's not a longterm solution.
+But it's better that you polited it in an existing course or a topics course.
+
+<emth>How would other people go about politing a course like this?
+[J] For example, I'm just a graduate student, would me getting a faculty to sponsor to run a special topics course be the only way to get started?</emth>
+If omeone at UBC wanted to offer this and weren't me (with teaching someting or with rights).  Teach it as a variable special topics.
+Or find a course that is related, and offer to teach a lap with them.  So the SWC stuff can be sold as a lab as anexisting course.
+THis would also provide the added benefit of getting you paid as a TA, for example.
+
+<emph>How do we turn the SWC course and how to fit that into 30 weeks.
+Should we try to expand the current material into 30 weeks, or offer 2 half semester courses.
+One of the concerns Bill Mills brought up was a 30 week course could too easily evolve/devolve into a Machine Learnig / Data science course.
+Where SWC tries to teach fundamental skills.
+How do we break up the current materal?
+</emph>
+
+[T] My curreny course is taught as a 3.5 week course.  This is supposed to be the same number of hours as a full semester course.
+We covered abbreviated shell. 6 hours of version control.  Sincecode review was part of thecourse PRs was essential.  THese sessions were split up a week apart.
+Then we covered all the Python basics.  Data munging and visualizations are really important, so we spend a lot of time with Visualizations and Pandas.
+Because I think you learn a lot by doing, almost the last 9 hours of the course are done doing hack sessions, where I am around to help.
+I am not teaching at this point.  THis is also because Quest perfers courses not to be lecturebased.  They want more activelearning.
+
+[J] I'm not teaching classicSWC material. I am sneaking it into existing course.
+One of the nice things about spreading out the material, is that you can makethe examples less artificial.
+THis has alwasys been a complaint of mine.
+Because you have to move through so much technical stuff, you end updoing a bunch of stuff with the file 'foo', and a bunch of other unrelistic problems.
+A benefit is then, by spreading everything out, you give the students a chance to use an example that is not boring.
+
+<emph>Jenny, how do you sneak and shim in the SWC material into your existing course?</emph>
+I have a lot of material in both settings.  I use the2 courses asan excuse to develop each other.
+I mainly teach R and data analysis.  So the part were SWC is helpful is Git.
+I don't teach as much Git formally as I should, I maily teach things by doing.
+I've never drawn the GIt concept maps when I teach.  Not sure if this is a good or bad thing.
+They do end up manage to get the work done.  I haven't brought SWC material explicitly yet.
+
+<emph>[t] In teaching these courses (I -- Tiffany come from a bio background).  If you are teaching SWC as a graduate or undergrad class, you have to assess people.
+What qassignments and quizzes do you give so you can get an understanding of how much material they are learning?</emph>
+
+[J] I don't do small quizzes.  I use to have big giant classes at the end, but this ends up with big heroic things happening atthe end of the course for both the students and myself.
+THey would leave stuff at the end, and end up pulling 3 all nighters and not necessarily get it all done.
+Iw oudl then get 40 or 50 projects that are not amediable to a single rubric.  SO i've evolved over the years to a HW assigments.
+These HW assignments are more of prompts, and given once a week.  Small and steady work throughout the semester versus a massive project at the end.
+Hopefully thisis more real live.
+and have a pretty standard rubric and makes grading much easier.
+Having TAs help too!
+Peer review isinvaluable.  Using git and github infrastructure for commenting on cmmits and PRs.
+
+<emph>THe book has physics in the title.  What department do we put this under? SHould we limit the couse to a particular major of studnets? or have have the course be completly free enrollment?
+Jenny, your class is under stats, is your class closed off to just stats people? Who can take your class?</emph>
+[J] My class is wide open to any graduate student.  I have undergrads, but I have to sign forms for them.
+I have tables tables and figures that I will put in the etherpad.  Since I've been tracking the people who attend my course:
+I've had people from 50different programs.  25 in at least 2 people.  So basically they are all over.
+40% are cumulatively statistics.  Since I have all the incomingmasters sutdents.
+Computational bilogy and bioinformatics are usually in taking the couse.
+I think it's good to have this diversity in the class and noy be this hyper specific.
+
+[T] For this course I was hiredbythe department of physical science.at Quest
+So I am usingkatie and anthony's books.  Dispite physics being in thebook and course title, i have a wide variety of people who take my class.
+There are only 13 people inthe class.  Classes cap at 20.
+People are from all different aspects, people in biology, physics, oceanography, marketing, sociology.
+We have a mid-block review for the course where the students provide feedback to the teaching.
+THey started discussing the txtbook.
+they all really liked the txtbook.  Very relevant to the class even if I was not teaching straight out ofthe book.
+FOr example, I was more comfortable teaching the SWC Git material so this is what I taught in our Git workshops.
+I used the inflammation dataset where katie and anothony used a differentexample.
+So the book and class doesn not need to be catered to physicists.
+THe book *is* very Python specific.
+Shell and GIt would be relevant to other things, but more than half is teaching Python.
+
+<emph>What does the first few weeks of the couse look like for your guys?</emph>
+
+
 
 <h2>Something Good, Something Bad</h2>
